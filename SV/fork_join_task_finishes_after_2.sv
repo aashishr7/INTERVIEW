@@ -2,7 +2,6 @@ module fork_exit_after_two;
 
   int done_count = 0;
   event two_done;
-
   task automatic do_work(int id, int delay); // if dont use automatic here then only task 4 will executes
     #(delay);
     $display("[%0t] Task %0d DONE with delay %0d", $time, id, delay);
