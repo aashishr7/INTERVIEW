@@ -14,7 +14,7 @@ class cons;
  }}
  }
    
-   
+  
    //constraint A1 { foreach(a[i]) a[i] == 2**i;}
    
  function void post_randomize();
